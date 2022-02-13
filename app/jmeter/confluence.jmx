@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.2">
+g`"<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.2">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="upload_attachments" enabled="true">
       <stringProp name="TestPlan.comments">This test plan was created by the BlazeMeter converter v.2.4.18. Please contact support@blazemeter.com for further support.</stringProp>
@@ -11241,7 +11240,7 @@ if (response_data.username != vars.get(&quot;app_specific_username&quot;)) {
                 <hashTree/>
               </hashTree>
             </hashTree>
-            <IfController guiclass="IfControllerPanel" testclass="IfController" testname="login_as_default_user_if_specific_user_was_loggedin" enabled="true">
+            <IfController guiclass="IfControllerPanel" testclass="IfController" testname="login_as_default_user_if_specific_user_was_loggedin" enabled="false">
               <stringProp name="IfController.condition">${run_as_specific_user}</stringProp>
               <boolProp name="IfController.evaluateAll">false</boolProp>
               <boolProp name="IfController.useExpression">true</boolProp>
